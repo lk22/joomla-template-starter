@@ -57,7 +57,7 @@ HTMLHelper::_('bootstrap.dropdown');
 //Register our web assets (Css/JS) with the Web Asset Manager
 //The files are defined in joomla.asset.json!!! If you don't want to use the included CSS or JS, just remove these lines or replace the CSS/JS files with your own code!
 $wa->useStyle('template.joomstarter.mainstyles');
-$wa->useStyle('template.joomstarter.framework');
+$wa->useStyle('template.joomstarter.bootstrap');
 $wa->useStyle('template.joomstarter.user');
 $wa->useScript('template.joomstarter.scripts');
 
