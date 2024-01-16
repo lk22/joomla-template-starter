@@ -16,6 +16,12 @@
       ]
     },
     {
+      "name": "template.joomlastarter.framework",
+      "description": "bootstrap css framework",
+      "type": "style",
+      "uri": "bootstrap.min.css"
+    },
+    {
       "name": "template.joomlastarter.user",
       "description": "The custom css style to use. Must be placed in media/templates/site/joomlastarter/css/user.css",
       "type": "style",

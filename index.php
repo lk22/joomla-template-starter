@@ -57,6 +57,7 @@ HTMLHelper::_('bootstrap.dropdown');
 //Register our web assets (Css/JS) with the Web Asset Manager
 //The files are defined in joomla.asset.json!!! If you don't want to use the included CSS or JS, just remove these lines or replace the CSS/JS files with your own code!
 $wa->useStyle('template.joomstarter.mainstyles');
+$wa->useStyle('template.joomstarter.framework');
 $wa->useStyle('template.joomstarter.user');
 $wa->useScript('template.joomstarter.scripts');
 
@@ -69,15 +70,12 @@ $this->setMetaData('viewport', 'width=device-width, initial-scale=1');
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
-
     <?php // Loads important metadata like the page title and viewport scaling ?>
 	<jdoc:include type="metas" />
     
     <?php // Loads the site's CSS and JS files from web asset manager ?>
 	<jdoc:include type="styles" />
 	<jdoc:include type="scripts" />
-    <link rel="stylesheet" href="http://joomla.leoknudsen.dk/templates/joomstarter/media/templates/site/joomstarter/css/user.css">
-    <script src="http://joomla.leoknudsen.dk/templates/joomstarter/media/templates/site/joomstarter/js/user.js"></script>
 
     <?php /** You can put links to CSS/JS just like any regular HTML page here too, and remove the jdoc:include script/style lines above if you want.
      * Do not delete the metas line though
@@ -87,9 +85,7 @@ $this->setMetaData('viewport', 'width=device-width, initial-scale=1');
      * <script src="https://mysite.com/templates/mytemplate/myscript.js"></script>
      * */ 
     ?>
-    
 </head>
-
 <?php // you can change data-bs-theme to dark for dark mode  // ?>
 <body class="site <?php echo $pageclass; ?>" data-bs-theme="light">
 	<header>
