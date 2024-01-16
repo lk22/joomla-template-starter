@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="template" client="site" method="upgrade">
-	<name>joomstarter</name>
+	<name>joomlastarter</name>
 	<version>1.40</version>
 	<creationDate>Oct 2023</creationDate>
 	<author>Your Name</author>
 	<authorEmail>Your Email</authorEmail>
 	<copyright>(C) 2023 KG</copyright>
-	<description>TPL_joomstarter_XML_DESCRIPTION</description>
+	<description>TPL_joomlastarter_XML_DESCRIPTION</description>
 	<inheritable>1</inheritable>
 	<files>
 		<filename>index.php</filename>
@@ -14,7 +14,7 @@
 		<filename>templateDetails.xml</filename>
 		<folder>html</folder>
 	</files>
-	<media destination="templates/site/joomstarter" folder="media">
+	<media destination="templates/site/joomlastarter" folder="media">
 		<folder>js</folder>
 		<folder>css</folder>
 		<folder>scss</folder>
@@ -33,8 +33,8 @@
 		<position>content-bottom</position>
 	</positions>
 	<languages folder="language">
-		<language tag="en-GB">en-GB/tpl_joomstarter.ini</language>
-		<language tag="en-GB">en-GB/tpl_joomstarter.sys.ini</language>
+		<language tag="en-GB">en-GB/tpl_joomlastarter.ini</language>
+		<language tag="en-GB">en-GB/tpl_joomlastarter.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
