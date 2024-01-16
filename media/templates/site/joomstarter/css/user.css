@@ -1,0 +1,44 @@
+header, footer {
+    background-color: #f9f9f9;
+}
+
+.navbar-collapse  {
+    flex-grow: 0;
+}
+
+
+.breadcrumbs {
+    background-color: purple;
+    color: #f9f9f9;
+
+    & .active {
+        color: #f9f9f9;
+    }
+}
+
+.banner-overlay {
+    padding: 5rem;
+    color: #f9f9f9;
+
+    & .overlay {
+        max-width: 1280px;
+        margin: auto;
+    }
+}
+
+main {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.module-test {
+    background-color: dodgerblue;
+    color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px 0px 10px 0px;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -moz-border-radius: 10px 0px 10px 0px;
+    -ms-border-radius: 10px 0px 10px 0px;
+    -o-border-radius: 10px 0px 10px 0px;
+    margin: 4rem 0rem;
+}
