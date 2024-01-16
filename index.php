@@ -96,7 +96,13 @@ $this->setMetaData('viewport', 'width=device-width, initial-scale=1');
         <?php // Generate a Bootstrap Navbar for the top of our website and put the site title on it ?>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a href="" class="navbar-brand"><?php echo ($sitename); ?></a>
+                <a href="" class="navbar-brand">
+                    <?php if( $this->params->get('logoFile') ) : ?>
+                        <img src="<?php echo htmlspecialchars($this->params->get('logoFile')); ?>" alt="<?php echo $sitename; ?>" />
+                    <?php else : ?>
+                        <?php echo ($sitename); ?>
+                    <?php endif; ?>
+                </a>
                 <?php // Update 1.14 - Added support for mobile menu with bootstrap ?>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
