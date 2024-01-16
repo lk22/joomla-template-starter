@@ -16,10 +16,10 @@
       ]
     },
     {
-      "name": "template.joomlastarter.framework",
+      "name": "template.joomlastarter.bootstrap",
       "description": "bootstrap css framework",
       "type": "style",
-      "uri": "bootstrap.min.css"
+      "uri": "bootstrap.css"
     },
     {
       "name": "template.joomlastarter.user",
